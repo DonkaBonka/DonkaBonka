@@ -328,4 +328,4 @@ Dokumentacija https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/
 ```bash
 cd Desktop
 git clone https://github.com/ignaszi/js_prog_kursas.git
-```
+```# DonkaBonka
