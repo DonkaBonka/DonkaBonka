@@ -100,8 +100,10 @@
     function move(element, row, col) {
       console.log(`Element: ${element}, Row: ${row}, col: ${col}`);
       // Pabaigti. (Vietoj doges turetu but X arba O) hehe
-      element.innerHTML = "<img src='doge.jpg'/>";
+      element.innerHTML = "O";
       xturn=!xturn
+      if (xturn)
+      element.innerHTML = "X"; 
       document.getElementById("turnIndicator").innerHTML = xturn;
       checkForWin();
     }
